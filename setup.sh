@@ -14,4 +14,5 @@ for file in $files; do
 	ln -s `pwd`/$file  ~/$file
 done
 
-git config --global core.excludesfile `pwd`/.gitignore
+# link gitignore to the gitignore file
+git config --global core.excludesfile `pwd`/gitignore

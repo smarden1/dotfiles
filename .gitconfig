@@ -14,4 +14,4 @@
 
 [core]
 	editor = nano
-	excludesfile = /Users/stevemardenfeld/git/dotfiles/.gitignore
+	excludesfile = /Users/stevemardenfeld/git/dotfiles/gitignore
