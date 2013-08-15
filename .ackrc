@@ -1,0 +1,11 @@
+--type-set=text=.md,.mdown,.markdown,.mkdn,.textile,.rst,.txt
+--type-set=csv=.txt,.csv,.tsv
+--type-set=js=.js
+--type-set=json=.json
+--type-set=smarty=.tpl
+--type-set=javascript=.js
+--type-set=php=.php
+--type-set=css=.css,.less
+--type-set=python=.py
+--smart-case
+--follow
