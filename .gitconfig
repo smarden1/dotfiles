@@ -1,0 +1,17 @@
+[Github]
+	User = smarden1
+[User]
+	Name = steve
+	Email = smarden1@gmail.com
+	Editor = pico
+[color]
+	ui = auto
+
+[alias]
+	rpull = pull --rebase --stat
+        pullr = pull --rebase --stat
+	st = status
+
+[core]
+	editor = nano
+	excludesfile = /Users/stevemardenfeld/.gitignore
