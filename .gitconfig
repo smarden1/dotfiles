@@ -6,6 +6,11 @@
 	Email = smarden1@gmail.com
 	Editor = pico
 
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+
 [color "branch"]
   current = yellow reverse
   local = yellow
