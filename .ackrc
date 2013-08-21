@@ -7,5 +7,6 @@
 --type-set=php=.php
 --type-set=css=.css,.less
 --type-set=python=.py
+--type-set=scala=.scala
 --smart-case
 --follow
