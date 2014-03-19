@@ -8,5 +8,7 @@
 --type-set=css=.css,.less
 --type-set=python=.py
 --type-set=scala=.scala
+--type-set=must=.mustache
+--type-set=tpl=.mustache,.tpl
 --smart-case
 --follow
