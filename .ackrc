@@ -12,3 +12,5 @@
 --type-set=tpl=.mustache,.tpl
 --smart-case
 --follow
+--ignore-dir=data
+--ignore-dir=vendor
