@@ -10,6 +10,7 @@
 --type-set=scala=.scala
 --type-set=must=.mustache
 --type-set=tpl=.mustache,.tpl
+--type-set=ruby=.rb
 --smart-case
 --follow
 --ignore-dir=data
