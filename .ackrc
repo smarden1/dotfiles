@@ -11,7 +11,7 @@
 --type-set=must=.mustache
 --type-set=tpl=.mustache,.tpl
 --type-set=ruby=.rb
---type-set=build=.pom,.build
+--type-set=build=.pom,.build, .xml
 --smart-case
 --follow
 --ignore-dir=data
