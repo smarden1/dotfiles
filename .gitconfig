@@ -1,46 +1,46 @@
 [Github]
-	User = smarden1
+    User = smarden1
 
 [User]
-	Name = steve
-	Email = smarden1@gmail.com
-	Editor = pico
+    Name = steve
+    Email = smarden1@gmail.com
+    Editor = pico
 
 [color]
-	branch = auto
-	diff = auto
-	status = auto
+    branch = auto
+    diff = auto
+    status = auto
 
 [color "branch"]
-  current = yellow reverse
-  local = yellow
-  remote = green
+    current = yellow reverse
+    local = yellow
+    remote = green
 
 [color "diff"]
-  whitespace = red reverse
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
+    whitespace = red reverse
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
 
 [alias]
-  st = status
-  ci = commit
-  br = branch
-  co = checkout
-  df = diff
-  lg = log -p
-  ap = add --patch
-  rpull = pull --rebase --stat
-  bclean = "!f() { git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs git branch -d; }; f"
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log -p
+    ap = add --patch
+    rpull = pull --rebase --stat
+    bclean = "!f() { git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs git branch -d; }; f"
 
 [branch]
-  autosetupmerge = true
+    autosetupmerge = true
 
 [core]
-	editor = nano
+    editor = nano
     whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	excludesfile = /Users/stevemardenfeld/git/dotfiles/gitignore
+    excludesfile = /Users/stevemardenfeld/git/dotfiles/gitignore
 
 [push]
-        default = current
+    default = current
