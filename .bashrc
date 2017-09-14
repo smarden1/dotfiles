@@ -10,3 +10,6 @@ HISTFILESIZE=2000
 
 # git history
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+# bracketed paste mode
+printf "\e[?2004l"
