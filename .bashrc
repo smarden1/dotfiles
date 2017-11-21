@@ -11,5 +11,7 @@ HISTFILESIZE=2000
 # git history
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
+alias git_branch_clean='git branch | grep --invert master | xargs git branch -d'
+
 # bracketed paste mode
 printf "\e[?2004l"
