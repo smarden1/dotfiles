@@ -19,3 +19,4 @@
 --ignore-dir=vendor
 --ignore-dir=target
 --ignore-dir=Godeps
+--ignore-dir=transpiled
