@@ -20,3 +20,4 @@
 --ignore-dir=target
 --ignore-dir=Godeps
 --ignore-dir=transpiled
+--ignore-dir=build
