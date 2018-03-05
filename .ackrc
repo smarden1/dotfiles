@@ -21,3 +21,4 @@
 --ignore-dir=Godeps
 --ignore-dir=transpiled
 --ignore-dir=build
+--ignore-file=ext:heapsnapshot
